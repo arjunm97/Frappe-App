@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Frape</string>
+    <string name="title_activity_list_orders">list_orders</string>
+    <string name="title_activity_confirm">confirm</string>
+</resources>

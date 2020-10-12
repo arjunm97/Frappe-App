@@ -1,0 +1,60 @@
+{
+  "category": {
+    "10": {
+      "Name": "Pizza",
+      "Image": "https://www.tasteofhome.com/wp-content/uploads/2017/10/Chicken-Pizza_exps30800_FM143298B03_11_8bC_RMS-2.jpg"
+    },
+    "11": {
+      "Name": "Wraps",
+      "Image": "https://img.taste.com.au/Q-xrvEKx/taste/2016/11/soft-chicken-wraps-with-tomato-salsa-91752-1.jpeg"
+    },
+    "12": {
+      "Name": "Pakoda",
+      "Image": "https://i.ytimg.com/vi/slo7Y0I2DJQ/maxresdefault.jpg"
+    },
+    "13": {
+      "Name": "Beverages",
+      "Image": "https://www.tarladalal.com/members/9306/big/big_oreo_milkshake-10604.jpg?size=696X905"
+    },
+    "14": {
+      "Name": "Thali",
+      "Image": "http://thetiffinzone.in/wp-content/uploads/2017/07/tiffine-1.png"
+    },
+    "01": {
+      "Name": "Classic Paratha",
+      "Image": "https://recipes.timesofindia.com/photo/53109843.cms"
+    },
+    "02": {
+      "Name": "Burgers",
+      "Image": "https://d9hyo6bif16lx.cloudfront.net/live/img/production/detail/menu/lunch-dinner_burgers_veggie-burger.jpg"
+    },
+    "03": {
+      "Name": "Rice",
+      "Image": "https://www.soscuisine.com/media/images/recettes/very_large/687.jpg?lang=en"
+    },
+    "04": {
+      "Name": "Parazza",
+      "Image": "https://i0.wp.com/mypullzone-9vexd6dl53at.netdna-ssl.com/wp-content/uploads/2018/04/Paneer-Tikka-Recipe-Step-By-Step-Instructions.jpg?fit=2324%2C1944&ssl=1"
+    },
+    "05": {
+      "Name": "Noodles",
+      "Image": "https://www.lecremedelacrumb.com/wp-content/uploads/2017/05/kung-pao-noodles-104-500x500.jpg"
+    },
+    "06": {
+      "Name": "Sandwich",
+      "Image": "http://www.annslounge.com/wp-content/uploads/2016/11/veg.jpg"
+    },
+    "07": {
+      "Name": "Breakfast",
+      "Image": "https://images.food52.com/XbQ74_RhBtTpnraQf-mSgn2l468=/753x502/7562ab71-9093-41e3-9534-6509501370ad--2018-0309_wholeflour-breakfast-cookie_3x2_rocky-luten_033.jpg"
+    },
+    "08": {
+      "Name": "Nachos",
+      "Image": "https://4.imimg.com/data4/XB/NX/MY-3971530/nacho-chips-500x500.jpg"
+    },
+    "09": {
+      "Name": "Fries",
+      "Image": "https://thenypost.files.wordpress.com/2018/08/istock-618214356.jpg?quality=90&strip=all&w=618&h=410&crop=1"
+    }
+  }
+}

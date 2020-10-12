@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "422431037774",
+    "firebase_url": "https://frape-2018.firebaseio.com",
+    "project_id": "frape-2018",
+    "storage_bucket": "frape-2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422431037774:android:a1c8038a54efc220",
+        "android_client_info": {
+          "package_name": "com.endlessbay.arjun.frape"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422431037774-rqnim8lrejh9m1l90bjo531m84c5his9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.endlessbay.arjun.frape",
+            "certificate_hash": "641f13e378a1b9707164e3a9dd43831f24f15569"
+          }
+        },
+        {
+          "client_id": "422431037774-9gvrfhmhso2k3cs93iummq39q2cpetce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9TO9M25B_ftoP2X283elCV4EUFq-fp_U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422431037774-9gvrfhmhso2k3cs93iummq39q2cpetce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

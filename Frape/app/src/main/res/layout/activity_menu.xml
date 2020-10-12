@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="order_final"
+        android:text="Place Order" />
+
+    <CheckBox
+        android:id="@+id/burger"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:text="Kitkat(50)" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="Snickers(125)" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="4dp"
+        android:text="oreo(50)" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox4"
+        android:layout_alignParentStart="true"
+        android:text="Schezwan Noodles(45)" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Veg maggie(40)" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/checkBox9"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="-2dp"
+        android:text="Cheese maggie(50)" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox11"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:text="Veg mayo Sandwich(50)" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox11"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="-2dp"
+        android:text="Cheese sandwich(65)" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox11"
+
+        android:layout_toEndOf="@+id/checkBox2"
+        android:text="Veg Burger(50)" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox"
+        android:layout_alignParentStart="true"
+        android:text="Cheese burger(55)" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/checkBox6"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/burger"
+        android:text="samosa burger(45)" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/checkBox6"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_toEndOf="@+id/checkBox2"
+        android:text="panner chilly(60)" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox8"
+        android:layout_alignParentStart="true"
+
+        android:text="Aloo paratha(50)" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox8"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="-1dp"
+        android:text="Mix veg Paratha(60)" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox8"
+        android:layout_alignStart="@+id/checkBox8"
+
+        android:text="Samosa aloo paratha(60)" />
+
+    <CheckBox
+        android:id="@+id/checkBox15"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox12"
+        android:layout_alignStart="@+id/burger"
+        android:text="onion paratha(50)" />
+
+    <CheckBox
+        android:id="@+id/checkBox16"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/order"
+        android:layout_alignBottom="@+id/checkBox15"
+        android:layout_marginStart="-11dp"
+        android:layout_marginBottom="-3dp"
+        android:text="veg FriedRice(50)" />
+
+    <CheckBox
+        android:id="@+id/checkBox17"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/checkBox16"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-3dp"
+        android:layout_toEndOf="@+id/checkBox2"
+        android:text="Schezwan FriedRice(60)" />
+
+    <CheckBox
+        android:id="@+id/checkBox18"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox16"
+        android:layout_alignStart="@+id/burger"
+
+        android:text="Jeera Rice(60)" />
+
+    <CheckBox
+        android:id="@+id/checkBox19"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox15"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="0dp"
+        android:text="Veg Noddles(50)" />
+
+    <CheckBox
+        android:id="@+id/checkBox20"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox16"
+
+        android:layout_toEndOf="@+id/checkBox2"
+        android:text="Schezwan noddles(60)" />
+
+    <CheckBox
+        android:id="@+id/checkBox21"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox18"
+        android:layout_alignParentStart="true"
+        android:text="veg wrap(30)" />
+
+    <CheckBox
+        android:id="@+id/checkBox22"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignBottom="@+id/checkBox21"
+        android:text="panner wrap(40)" />
+
+    <CheckBox
+        android:id="@+id/checkBox23"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/checkBox17"
+        android:layout_alignBottom="@+id/checkBox21"
+        android:text="mixed veg momo(60)" />
+
+    <CheckBox
+        android:id="@+id/checkBox24"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox21"
+        android:layout_alignParentStart="true"
+        android:text="north indian thali(80)" />
+
+    <CheckBox
+        android:id="@+id/checkBox25"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox21"
+        android:layout_alignStart="@+id/checkBox2"
+        android:text="choco shake(75)" />
+
+    <CheckBox
+        android:id="@+id/checkBox27"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox21"
+        android:layout_alignStart="@+id/checkBox17"
+        android:text="nachos(60)" />
+
+    <CheckBox
+        android:id="@+id/checkBox28"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox24"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="9dp"
+        android:text="onion pakoda" />
+
+    <CheckBox
+        android:id="@+id/checkBox29"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox24"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:text="paratha aloo onion(60)" />
+
+    <CheckBox
+        android:id="@+id/checkBox30"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox24"
+        android:layout_alignStart="@+id/checkBox17"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="19dp"
+        android:text="paratha aloo cheese(70)" />
+
+    <CheckBox
+        android:id="@+id/checkBox31"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox28"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="18dp"
+        android:text="margheritha pizza(110)" />
+
+    <CheckBox
+        android:id="@+id/checkBox32"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignBottom="@+id/checkBox31"
+        android:text="cheese paratha(80)" />
+
+    <CheckBox
+        android:id="@+id/checkBox33"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox28"
+        android:layout_alignStart="@+id/checkBox17"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="17dp"
+        android:text="peanut butter(100)" />
+
+    <CheckBox
+        android:id="@+id/checkBox34"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBox31"
+        android:layout_alignStart="@+id/burger"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="12dp"
+        android:text="vada pov(30)" />
+
+    <CheckBox
+        android:id="@+id/checkBox35"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignBottom="@+id/checkBox34"
+        android:text="vada pav cheese(40)" />
+
+    <CheckBox
+        android:id="@+id/checkBox36"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/checkBox17"
+        android:layout_alignBottom="@+id/checkBox34"
+        android:text="hakka noodles(60)" />
+
+</RelativeLayout>

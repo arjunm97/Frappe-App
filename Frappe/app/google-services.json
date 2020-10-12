@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "5228911019",
+    "firebase_url": "https://frappe-d1495.firebaseio.com",
+    "project_id": "frappe-d1495",
+    "storage_bucket": "frappe-d1495.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5228911019:android:ba7ab42fe6f53fe7",
+        "android_client_info": {
+          "package_name": "com.endlessbay.arjun.frappe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5228911019-hvlr64hisvid8hplgbstjru4miu86jcs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.endlessbay.arjun.frappe",
+            "certificate_hash": "641f13e378a1b9707164e3a9dd43831f24f15569"
+          }
+        },
+        {
+          "client_id": "5228911019-jleas2vo93fuoctmi2072l0skubcottn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0wk5RER_txeNsc7kVEEBLF81HS3rK2f0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5228911019-jleas2vo93fuoctmi2072l0skubcottn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
